@@ -40,7 +40,7 @@ public class MySample0524_5 {
 	public static void main(String[] args) 
 	{
 		Car1 c1 = new Car1();
-		Car1 c2 = new Car1(c1); 
+		Car1 c2 = new Car1(c1); // 인수값 c1을 전달 (c1의 시작 주소를 가져와 읽기만 한다.) 
 		
 		System.out.println("c1 color = "+c1.color +", gearType ="+c1.gearType + ", door = " +c1.door);
 		System.out.println("c2 color = "+c2.color +", gearType ="+c2.gearType + ", door = " +c2.door);
